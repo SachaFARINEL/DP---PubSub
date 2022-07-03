@@ -1,4 +1,4 @@
-import {pubsub} from "./pubsub";
+import {pubsub} from "./pubsub.js";
 
 let ul = document.querySelector(".listeFruits ul");
 

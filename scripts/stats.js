@@ -1,5 +1,4 @@
-import {pubsub} from './pubsub';
-import {fruits} from "./fruits";
+import {pubsub} from './pubsub.js';
 
 export const stats = {
     render: () => {
