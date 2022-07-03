@@ -1,0 +1,6 @@
+.listeFruits li:hover {
+    cursor: not-allowed;
+}
+.listeLegumes li:hover {
+    cursor: not-allowed;
+}

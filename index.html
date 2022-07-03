@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>test</title>
+    <link href="./style.css" rel="stylesheet" type="text/css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+            crossorigin="anonymous"></script>
+</head>
+<body>
+<navbar>
+    <div class="mb-5" style="text-align: center; background: #8aa1e6">
+        <h4 class="py-4">Sacha FARINEL - Patron de conception Publish Subscribe </h4>
+    </div>
+</navbar>
+<main>
+    <div class="container">
+        <div class="fruits mb-3 d-flex justify-content-center">
+            <div class="col-3 me-3"><input type="text" class="form-control" id="fruitName" placeholder="Nom du fruit">
+            </div>
+            <div>
+                <button type="submit" class="btn btn-primary">Add fruit</button>
+            </div>
+        </div>
+
+        <div class="legumes mb-3 d-flex justify-content-center">
+            <div class="col-3 me-3"><input type="text" class="form-control" id="legumeName" placeholder="Nom du légume">
+            </div>
+            <div>
+                <button type="submit" class="btn btn-primary">Add légume
+                </button>
+            </div>
+        </div>
+
+        <div class="mb-3 d-flex flex-column align-items-center col-3 mx-auto" style="border: 3px solid #8aa1e6">
+            <h5>Nombre de fruits et légumes</h5>
+            <p class="fruitsCount">Aucun fruit dans la liste</p>
+            <p class="legumesCount">Aucun légume dans la liste</p>
+        </div>
+
+        <div class="tableau d-flex justify-content-center" style="height: 15vh">
+            <div class="shadow p-3 mb-5 bg-white rounded col-5 mx-3 d-flex flex-column align-items-center" style="height: 25vh">
+                <h3>Fruits</h3>
+                <div class="listeFruits">
+                    <ul></ul>
+                </div>
+
+            </div>
+            <div class="shadow p-3 mb-5 bg-white rounded col-5 mx-3 d-flex flex-column align-items-center" style="height: 25vh">
+                <h3>Légumes</h3>
+                <div class="listeLegumes">
+                    <ul></ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</main>
+
+<!--<script src="./scripts/fruits.js" type="module"></script>-->
+<!--<script src="./scripts/legumes.js" type="module"></script>-->
+<!--<script src="./scripts/stats.js" type="module"></script>-->
+<script src="main.js" type="module"></script>
+
+
+</body>
+</html>
