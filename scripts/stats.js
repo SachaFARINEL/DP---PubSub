@@ -24,6 +24,9 @@ export const stats = {
         } else {
             document.querySelector(".fruitsCount").innerText = `Aucun fruit dans la liste`;
         }
+        console.log(
+            `STATS: J'ai entendu que la liste des fruits est maintenant composée de ${list.length} fruits.`
+        );
     },
     legumesUpdated: list => {
         let textLegume = "legume";
@@ -35,6 +38,9 @@ export const stats = {
         } else {
             document.querySelector(".legumesCount").innerText = `Aucun légume dans la liste`;
         }
+        console.log(
+            `STATS: J'ai entendu que la liste des légumes est maintenant composée de ${list.length} légumes.`
+        );
     }
 
 
