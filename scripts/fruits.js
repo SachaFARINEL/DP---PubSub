@@ -5,6 +5,7 @@ let ul = document.querySelector(".listeFruits ul");
 export const fruits = {
     list: [],
     render: () => {
+        console.log(pubsub.events);
         // On ajoute un eventListener sur notre liste de fruits pour pouvoir les supprimer au clique de l'utilisateur.
         ul.addEventListener("click", fruits.deleted);
 
